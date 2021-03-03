@@ -6,3 +6,6 @@ script:
     - npm run export
     - npm test
     - test -f web-ext-artifacts/gecko_code_coverage-*.zip
+
+- name: 1Password Secrets
+  uses: RobotsAndPencils/1password-action@v1.1
